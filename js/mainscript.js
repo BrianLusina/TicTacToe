@@ -13,7 +13,6 @@ var wins = [
 		[1,5,9],
 		];
 //initial start screen
-//the computer is pretty dumb, you can win pretty often
 $(document).ready(init);
 
 function init(repopulate){
@@ -36,18 +35,18 @@ function init(repopulate){
 
 function clearScreen(gameEnd){
 	//fade out contents
-	$('.row>*>*').fadeOut(600);
-	//clear rows of click and read
-	$('.row>*').removeClass('click').addClass('click');
+	$('.game-row>*>*').fadeOut(600);
+	//clear game-rows of click and read
+	$('.game-row>*').removeClass('click').addClass('click');
 	//clear contents of all boxes
-	setTimeout(function(){$('.row>*').html('');},700);
+	setTimeout(function(){$('.game-row>*').html('');},700);
 	if (gameEnd == true){
 		setTimeout(restart,900);
 	}
 	function restart(){
 		cPlays = [];
 		pPlays = [];
-		$('.row>*').removeClass('click').off('click');
+		$('.game-row>*').removeClass('click').off('click');
 		init(true);
 	}
 }

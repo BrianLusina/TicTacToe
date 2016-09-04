@@ -2,25 +2,21 @@ var playerTile = 'none';
 var enemyTile = 'none';
 var pPlays = [];
 var cPlays = [];
-var wins = [
-	[1,2,3],
-	[4,5,6],
-		[7,8,9],
-		[1,4,7],
-		[2,5,8],
-		[3,6,9],
-		[3,5,7],
-		[1,5,9],
-		];
+
+var wins = [[1,2,3],[4,5,6],[7,8,9],
+			[1,4,7],[2,5,8],[3,6,9],
+			[3,5,7],[1,5,9],[5,7,9]];
+
 //initial start screen
 $(document).ready(init);
 
 function init(repopulate){
 	if (repopulate == true){
 		$('#1').html('<div class="cross"></div>').addClass('init');
-		$('#5').html('<div class="">Select Tile</div>')
+		$('#5').html('<div class="title-select">Select a tile</div>')
 		$('#9').html('<div class="circle"></div>').addClass('init');
 	}
+	
 	//start the click events
 	$('.init').click(function(div){
 		var select = this.id
@@ -170,7 +166,7 @@ function endGame(who){
 	swal({
 		title:"And the winner is!",
 		text: who,
-		timer:2000,
+		timer:3000,
 		showConfirmButton:true}
 		);
 	clearScreen(true);

@@ -32,11 +32,12 @@ main {
 	font-family: Raleway;
 }
 
-
-@media only screen and (max-width: 768px){
+/*mobile*/
+@media only screen and (max-width: 600px){
 	.title-select{
 		font-size: 7px;
 		font-family: Raleway;
+		text-align: center;
 	}
 }
 
@@ -44,6 +45,7 @@ main {
 @media only screen and(min-width:600px){
 	.title-select{
 		font-size: 7px;
+		text-align: center;
 		font-family: Raleway;
 	}	
 }
@@ -52,6 +54,8 @@ main {
 @media only screen and(min-width:768px){
 	.title-select{
 		font-size: 20px;
+		text-align: center;
+		font-family: Raleway;
 	}	
 }
 

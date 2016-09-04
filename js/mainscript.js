@@ -167,6 +167,11 @@ function check(arr){
 }
 
 function endGame(who){
-	swal(who+' wins!');
+	swal({
+		title:"And the winner is!",
+		text: who,
+		timer:2000,
+		showConfirmButton:true}
+		);
 	clearScreen(true);
 }

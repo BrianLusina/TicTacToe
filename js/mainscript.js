@@ -168,6 +168,6 @@ function check(arr){
 }
 
 function endGame(who){
-	alert(who+' wins!');
+	swal(who+' wins!');
 	clearScreen(true);
 }

@@ -2,23 +2,7 @@ body {
   background-color: #123;
   color: #E44B23;
 }
-header{
-	padding:20px;	
-}
 
-header h3{
-	text-align: center;
-	font-family: Poiret One,cursive;
-	font-size: 30px;
-}
-header hr{
-	width:10%;
-}
-
-header h3:hover{
-	color:firebrick;
-	transition: 2s color;
-}
 
 main {
   width: 70vw;
@@ -157,19 +141,4 @@ main {
 }
 .click, .init {
   cursor: pointer;
-}
-
-/*FOOTAH!*/
-footer p{
-	text-align: center;
-	padding:20px;
-}
-
-footer a{
-	color: #E44B23;
-}
-
-footer a:hover{
-	color:firebrick;
-	transition:2s color;
 }

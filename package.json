@@ -2,6 +2,14 @@
   "name": "tictactoe",
   "version": "0.1.0",
   "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BrianLusina/TicTacToe"    
+  },
+  "bugs": {
+    "url": "https://github.com/BrianLusina/TicTacToe/issues"
+  },
+  "readme": "https://github.com/BrianLusina/TicTacToe/#README.md",
   "devDependencies": {
     "gh-pages": "^0.12.0",
     "git-scripts": "^0.2.1",

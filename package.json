@@ -14,7 +14,7 @@
   },
   "git":{
     "scripts":{
-      "pre-push":"surge --project ./build --domain mytictactoe.surge.sh"
+      "pre-push":"surge --project ./build --domain tictactoe-game.surge.sh"
     }
   },
   "scripts": {

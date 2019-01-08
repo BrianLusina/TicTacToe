@@ -1,5 +1,7 @@
 # TICTACTOE	
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/BrianLusina/TicTacToe.svg)](https://greenkeeper.io/)
+
 A simple Tic tac toe game which fulfills the following user stories:
 
 + I can play a game of Tic Tac Toe with the computer.
